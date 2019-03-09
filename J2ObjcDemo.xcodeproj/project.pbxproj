@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF851BE922326467003EF18D /* PrayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BF851BE822326467003EF18D /* PrayTime.m */; };
+		BFB2B0E9223346EC00623737 /* PrayTimeUtil.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0E8223346EC00623737 /* PrayTimeUtil.java */; };
+		BFB2B0EB22334FF200623737 /* CalcMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0EA22334FF200623737 /* CalcMethod.java */; };
+		BFB2B0F12233513B00623737 /* HighLatAdjustMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0EC2233513A00623737 /* HighLatAdjustMethod.java */; };
+		BFB2B0F22233513B00623737 /* JuristicMethod.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0ED2233513B00623737 /* JuristicMethod.java */; };
+		BFB2B0F32233513B00623737 /* PrayerCalTime.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0EE2233513B00623737 /* PrayerCalTime.java */; };
+		BFB2B0F52233513B00623737 /* PrayTimeFormat.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0F02233513B00623737 /* PrayTimeFormat.java */; };
+		BFB2B0FB2233549B00623737 /* User.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B0FA2233549B00623737 /* User.java */; };
+		BFB2B1032233B74700623737 /* PrayTimeParam.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B1022233B74700623737 /* PrayTimeParam.java */; };
+		BFB2B1052233B7C900623737 /* PrayTimeBaseTools.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B1042233B7C900623737 /* PrayTimeBaseTools.java */; };
+		BFB2B1082233B83A00623737 /* TimeUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = BFB2B1072233B83A00623737 /* TimeUtils.java */; };
+		C91FC6FF223208A1001C2A69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91FC6FE223208A1001C2A69 /* AppDelegate.m */; };
+		C91FC702223208A1001C2A69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91FC701223208A1001C2A69 /* ViewController.m */; };
+		C91FC705223208A1001C2A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91FC703223208A1001C2A69 /* Main.storyboard */; };
+		C91FC708223208A1001C2A69 /* TestTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91FC706223208A1001C2A69 /* TestTable.xcdatamodeld */; };
+		C91FC70A223208A2001C2A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91FC709223208A2001C2A69 /* Assets.xcassets */; };
+		C91FC70D223208A2001C2A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91FC70B223208A2001C2A69 /* LaunchScreen.storyboard */; };
+		C91FC710223208A2001C2A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91FC70F223208A2001C2A69 /* main.m */; };
+		C91FC718223230A1001C2A69 /* HelloWorld.java in Sources */ = {isa = PBXBuildFile; fileRef = C91FC717223230A1001C2A69 /* HelloWorld.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		C91FC7192232313A001C2A69 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.java;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/${INPUT_FILE_BASE}.h",
+				"$(DERIVED_FILE_DIR)/${INPUT_FILE_BASE}.m",
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n\n/Users/cpx/downloads/j2objc-2.3.1/j2objc -d ${DERIVED_FILE_DIR} -sourcepath ${PROJECT_DIR}/J2ObjcDemo/JAVA/ \\\n--no-package-directories -use-arc --prefix internel=OJ \\\n-g ${INPUT_FILE_PATH};\n\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		BF851BE822326467003EF18D /* PrayTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrayTime.m; sourceTree = "<group>"; };
+		BF851BEA22326484003EF18D /* PrayTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrayTime.h; sourceTree = "<group>"; };
+		BFB2B0E8223346EC00623737 /* PrayTimeUtil.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PrayTimeUtil.java; sourceTree = "<group>"; };
+		BFB2B0EA22334FF200623737 /* CalcMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CalcMethod.java; sourceTree = "<group>"; };
+		BFB2B0EC2233513A00623737 /* HighLatAdjustMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HighLatAdjustMethod.java; sourceTree = "<group>"; };
+		BFB2B0ED2233513B00623737 /* JuristicMethod.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = JuristicMethod.java; sourceTree = "<group>"; };
+		BFB2B0EE2233513B00623737 /* PrayerCalTime.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PrayerCalTime.java; sourceTree = "<group>"; };
+		BFB2B0F02233513B00623737 /* PrayTimeFormat.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PrayTimeFormat.java; sourceTree = "<group>"; };
+		BFB2B0FA2233549B00623737 /* User.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = User.java; sourceTree = "<group>"; };
+		BFB2B1022233B74700623737 /* PrayTimeParam.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PrayTimeParam.java; sourceTree = "<group>"; };
+		BFB2B1042233B7C900623737 /* PrayTimeBaseTools.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = PrayTimeBaseTools.java; sourceTree = "<group>"; };
+		BFB2B1072233B83A00623737 /* TimeUtils.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TimeUtils.java; sourceTree = "<group>"; };
+		C91FC6FA223208A1001C2A69 /* J2ObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J2ObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91FC6FD223208A1001C2A69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C91FC6FE223208A1001C2A69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C91FC700223208A1001C2A69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C91FC701223208A1001C2A69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C91FC704223208A1001C2A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C91FC707223208A1001C2A69 /* TestTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTable.xcdatamodel; sourceTree = "<group>"; };
+		C91FC709223208A2001C2A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C91FC70C223208A2001C2A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C91FC70E223208A2001C2A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91FC70F223208A2001C2A69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C91FC717223230A1001C2A69 /* HelloWorld.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HelloWorld.java; sourceTree = "<group>"; };
+		C9D023882232561800E8CB56 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91FC6F7223208A1001C2A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB2B0FF2233B24800623737 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C91FC717223230A1001C2A69 /* HelloWorld.java */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		BFB2B1002233B26A00623737 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				BFB2B0FA2233549B00623737 /* User.java */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		BFB2B1012233B5E000623737 /* internel */ = {
+			isa = PBXGroup;
+			children = (
+				BFB2B0EC2233513A00623737 /* HighLatAdjustMethod.java */,
+				BFB2B0ED2233513B00623737 /* JuristicMethod.java */,
+				BFB2B0EE2233513B00623737 /* PrayerCalTime.java */,
+				BFB2B1022233B74700623737 /* PrayTimeParam.java */,
+				BFB2B0F02233513B00623737 /* PrayTimeFormat.java */,
+				BFB2B0EA22334FF200623737 /* CalcMethod.java */,
+				BFB2B0E8223346EC00623737 /* PrayTimeUtil.java */,
+			);
+			path = internel;
+			sourceTree = "<group>";
+		};
+		BFB2B1062233B83900623737 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFB2B1072233B83A00623737 /* TimeUtils.java */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		C91FC6F1223208A1001C2A69 = {
+			isa = PBXGroup;
+			children = (
+				C91FC6FC223208A1001C2A69 /* J2ObjcDemo */,
+				C91FC6FB223208A1001C2A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91FC6FB223208A1001C2A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91FC6FA223208A1001C2A69 /* J2ObjcDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91FC6FC223208A1001C2A69 /* J2ObjcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C91FC716223230A1001C2A69 /* JAVA */,
+				C91FC6FD223208A1001C2A69 /* AppDelegate.h */,
+				C91FC6FE223208A1001C2A69 /* AppDelegate.m */,
+				C91FC700223208A1001C2A69 /* ViewController.h */,
+				C91FC701223208A1001C2A69 /* ViewController.m */,
+				C91FC703223208A1001C2A69 /* Main.storyboard */,
+				C91FC709223208A2001C2A69 /* Assets.xcassets */,
+				C91FC70B223208A2001C2A69 /* LaunchScreen.storyboard */,
+				C91FC70E223208A2001C2A69 /* Info.plist */,
+				C91FC70F223208A2001C2A69 /* main.m */,
+				C91FC706223208A1001C2A69 /* TestTable.xcdatamodeld */,
+				C9D023882232561800E8CB56 /* PrefixHeader.pch */,
+				BF851BE822326467003EF18D /* PrayTime.m */,
+				BF851BEA22326484003EF18D /* PrayTime.h */,
+			);
+			path = J2ObjcDemo;
+			sourceTree = "<group>";
+		};
+		C91FC716223230A1001C2A69 /* JAVA */ = {
+			isa = PBXGroup;
+			children = (
+				BFB2B1062233B83900623737 /* utils */,
+				BFB2B1042233B7C900623737 /* PrayTimeBaseTools.java */,
+				BFB2B1012233B5E000623737 /* internel */,
+				BFB2B1002233B26A00623737 /* user */,
+				BFB2B0FF2233B24800623737 /* test */,
+			);
+			path = JAVA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91FC6F9223208A1001C2A69 /* J2ObjcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91FC713223208A2001C2A69 /* Build configuration list for PBXNativeTarget "J2ObjcDemo" */;
+			buildPhases = (
+				C91FC6F6223208A1001C2A69 /* Sources */,
+				C91FC6F7223208A1001C2A69 /* Frameworks */,
+				C91FC6F8223208A1001C2A69 /* Resources */,
+			);
+			buildRules = (
+				C91FC7192232313A001C2A69 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = J2ObjcDemo;
+			productName = TestTable;
+			productReference = C91FC6FA223208A1001C2A69 /* J2ObjcDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91FC6F2223208A1001C2A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CPX_22;
+				TargetAttributes = {
+					C91FC6F9223208A1001C2A69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C91FC6F5223208A1001C2A69 /* Build configuration list for PBXProject "J2ObjcDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C91FC6F1223208A1001C2A69;
+			productRefGroup = C91FC6FB223208A1001C2A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91FC6F9223208A1001C2A69 /* J2ObjcDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91FC6F8223208A1001C2A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91FC70D223208A2001C2A69 /* LaunchScreen.storyboard in Resources */,
+				C91FC70A223208A2001C2A69 /* Assets.xcassets in Resources */,
+				C91FC705223208A1001C2A69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91FC6F6223208A1001C2A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB2B0F12233513B00623737 /* HighLatAdjustMethod.java in Sources */,
+				BFB2B0E9223346EC00623737 /* PrayTimeUtil.java in Sources */,
+				C91FC718223230A1001C2A69 /* HelloWorld.java in Sources */,
+				BFB2B0F52233513B00623737 /* PrayTimeFormat.java in Sources */,
+				C91FC702223208A1001C2A69 /* ViewController.m in Sources */,
+				BFB2B1052233B7C900623737 /* PrayTimeBaseTools.java in Sources */,
+				BFB2B0EB22334FF200623737 /* CalcMethod.java in Sources */,
+				BF851BE922326467003EF18D /* PrayTime.m in Sources */,
+				C91FC6FF223208A1001C2A69 /* AppDelegate.m in Sources */,
+				BFB2B0FB2233549B00623737 /* User.java in Sources */,
+				C91FC710223208A2001C2A69 /* main.m in Sources */,
+				BFB2B1032233B74700623737 /* PrayTimeParam.java in Sources */,
+				BFB2B0F32233513B00623737 /* PrayerCalTime.java in Sources */,
+				C91FC708223208A1001C2A69 /* TestTable.xcdatamodeld in Sources */,
+				BFB2B1082233B83A00623737 /* TimeUtils.java in Sources */,
+				BFB2B0F22233513B00623737 /* JuristicMethod.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C91FC703223208A1001C2A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91FC704223208A1001C2A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C91FC70B223208A2001C2A69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91FC70C223208A2001C2A69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C91FC711223208A2001C2A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C91FC712223208A2001C2A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91FC714223208A2001C2A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3GY5A3Y9Y;
+				GCC_PREFIX_HEADER = $SRCROOT/J2ObjcDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"/Users/cpx/downloads/j2objc-2.3.1/include\"";
+				INFOPLIST_FILE = "$(SRCROOT)/J2ObjcDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"/Users/cpx/downloads/j2objc-2.3.1/lib\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-l\"jre_emul\"",
+					"-l\"icucore\"",
+					"-l",
+					jre_emul,
+					"-ObjC",
+					"-liconv",
+					"-ljre_emul",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpx22.TestTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"/Users/cpx/downloads/j2objc-2.3.1/include\"",
+					"${DERIVED_FILE_DIR}",
+				);
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		C91FC715223208A2001C2A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3GY5A3Y9Y;
+				GCC_PREFIX_HEADER = $SRCROOT/J2ObjcDemo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"/Users/cpx/downloads/j2objc-2.3.1/include\"";
+				INFOPLIST_FILE = "$(SRCROOT)/J2ObjcDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"/Users/cpx/downloads/j2objc-2.3.1/lib\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-l\"jre_emul\"",
+					"-l\"icucore\"",
+					"-l",
+					jre_emul,
+					"-ObjC",
+					"-liconv",
+					"-ljre_emul",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cpx22.TestTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"\"/Users/cpx/downloads/j2objc-2.3.1/include\"",
+					"${DERIVED_FILE_DIR}",
+				);
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91FC6F5223208A1001C2A69 /* Build configuration list for PBXProject "J2ObjcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91FC711223208A2001C2A69 /* Debug */,
+				C91FC712223208A2001C2A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91FC713223208A2001C2A69 /* Build configuration list for PBXNativeTarget "J2ObjcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91FC714223208A2001C2A69 /* Debug */,
+				C91FC715223208A2001C2A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C91FC706223208A1001C2A69 /* TestTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C91FC707223208A1001C2A69 /* TestTable.xcdatamodel */,
+			);
+			currentVersion = C91FC707223208A1001C2A69 /* TestTable.xcdatamodel */;
+			path = TestTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C91FC6F2223208A1001C2A69 /* Project object */;
+}

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  TestTable
+//
+//  Created by CPX_22 on 2019/3/8.
+//  Copyright © 2019 CPX_22. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "HelloWorld.h"
+#import "java/util/Calendar.h"
+#import "java/util/List.h"
+#import "java/util/ArrayList.h"
+#import "CalcMethod.h"
+#import "PrayTimeUtil.h"
+#import "JuristicMethod.h"
+#import "HighLatAdjustMethod.h"
+#import "PrayerCalTime.h"
+#import "PrayTimeFormat.h"
+#import "PrayTimeParam.h"
+#import "PrayTimeBaseTools.h"
+#import "User.h"
+
+
+
+#endif /* PrefixHeader_pch */
